@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="bn" data-resolved="dark" data-accent="green">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#0e1118">
+<title>বাংলা সাহিত্য · Bangla Sahitto</title>
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="style.css">
+<script>window.HB={_b:{},_w:{},book:function(id,rows){this._b[id]=rows;var w=this._w[id]||[];delete this._w[id];w.forEach(function(f){f()})}};</script>
+<script src="data/catalog.js"></script>
+</head>
+<body>
+<div id="app">
+  <div class="hero-bg"></div>
+  <section class="view" id="v-home"></section>
+  <section class="view" id="v-lib"></section>
+  <section class="view" id="v-notes"></section>
+  <section class="view" id="v-search"></section>
+  <section class="view" id="v-settings"></section>
+  <section class="view" id="v-profile"></section>
+</div>
+<nav class="nav" id="nav"></nav>
+
+<div id="reader" data-rt="app">
+  <div class="rprog" id="rprog"></div>
+  <div class="rbar" id="rbar">
+    <button class="rbtn" id="r-back" aria-label="ফিরে যান"></button>
+    <div class="tt"><b id="r-title"></b><small id="r-sub"></small></div>
+    <button class="rbtn" id="r-find" aria-label="খুঁজুন"></button>
+    <button class="rbtn" id="r-bm" aria-label="বুকমার্ক"></button>
+  </div>
+  <div id="rscroll"><div id="rtext"></div></div>
+  <div class="rfoot" id="rfoot">
+    <div class="rtrack" id="rtrack"><i id="rtr"></i></div>
+    <div class="rinfo"><span id="r-l"></span><span id="r-r"></span></div>
+    <div class="rctl">
+      <button class="rb" id="r-prev" aria-label="আগের"></button>
+      <button class="rb" id="r-aa"></button>
+      <button class="rb" id="r-dk"></button>
+      <button class="rb" id="r-as"></button>
+      <button class="rb" id="r-chap"></button>
+      <button class="rb" id="r-next" aria-label="পরের"></button>
+    </div>
+  </div>
+</div>
+
+<div id="splash"><div class="spc"><div class="splogo" id="sp-logo"></div><h1>বাংলা সাহিত্য</h1><div class="spen">Bangla Sahitto</div><p>বইয়ের জগতে একটি সুন্দর সফর শুরু করুন। হুমায়ূন, রবীন্দ্রনাথ, নজরুল ও আরও অনেকের লেখা — সবই ফোনে, ইন্টারনেট ছাড়াই।</p></div><div class="spq">“যে পড়ে না, সে হারায় অনেক কিছু।”</div><button id="sp-go">শুরু করুন →</button></div>
+<div class="hlbar" id="hlbar"></div>
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet"><div class="grab"></div><h3 id="sheet-t"></h3><div class="body" id="sheet-b"></div></div>
+<div class="pop" id="pop"><div class="box" id="pop-b"></div></div>
+<div class="dim" id="dim"></div>
+<div class="toast" id="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>
